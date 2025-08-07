@@ -1,0 +1,22 @@
+{
+    "name": "example/php-fsm-mod-three",
+    "description": "A reusable FSM in PHP with an example of modulo three calculator.",
+    "type": "project",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
